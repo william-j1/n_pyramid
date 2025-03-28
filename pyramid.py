@@ -125,7 +125,7 @@ def main():
     # construct triangular object
     t = Triangle(Vertex(0, 0), Vertex(args.l, 0), Vertex(sx, sy))
 
-    # sides * area * apex height * (1/3 of a rectangular tank)
+    # sides * area * apex height * (1/3)
     v = args.n * t.area() * args.h * 1/3
     print(str(v))
 
