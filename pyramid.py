@@ -7,7 +7,7 @@ My method: Model the _origin_ edge of the base into an empty 2-dimensional space
 2. The secondary vertex which defines the origin edge is always equal to v2(length, 0)
 3. Divide a full circumference by n_sides to yield an angle of change denoted _theta_
 4. Given _theta_, always borrow the properties from the last vertex to define the next edge and add the original length
-5. Perform a transformation on this vertex to plot the next point that need exist around the invisible circumference 
+5. Perform a transformation on this vertex to plot the next point that need exist on the invisible circumference 
 6. Repeat from step 4 until origin point is reached using _delta_ to sum the "angle of change"
 7. Given a vertex (or edge list) obtain a midpoint (centroid) and render a triangle
 8. Solve its area, multiply for n_sides and finally multiply the apex height and scale 1/3.
